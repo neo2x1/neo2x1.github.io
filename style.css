@@ -1,12 +1,12 @@
 *{font-family:Alef;
 	margin:0;
 	box-sizing:border-box;
-	color:white;}
+	color:white;margin:auto;}
 body{background:linear-gradient(145deg, 
 								rgba(112,112,175,1) 25%,
 								rgba(175,112,112,1) 100%) fixed;
 	max-width:750px;
-	margin:auto;}
+	}
 header{height:100px;
 	text-align:center;
 	font-size:1.5em;}
