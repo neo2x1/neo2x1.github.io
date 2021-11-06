@@ -2,12 +2,10 @@
 	margin:0;
 	box-sizing:border-box;
 	color:white;}
-
-body{background:linear-gradient(145deg, rgba(112,112,175,1) 25%, rgba(175,112,112,1) 100%) fixed;}
+body{background:linear-gradient(145deg, rgba(112,112,175,1) 25%, rgba(175,112,112,1) 100%) fixed;max-width:750px;}
 header{height:100px;
 	text-align:center;
-	font-size:1.5em;
-	}
+	font-size:1.5em;}
 header h1{padding:0.3em 0;}
 nav{height:120px;}
 .menu{background-color:rgba(255,255,255,0);
@@ -21,8 +19,7 @@ nav{height:120px;}
 	font-size:1.5em;
 	text-align:center;}
 	
-article{max-width:750px;
-	margin:auto;
+article{margin:auto;
 	margin-top:20px}
 
 .menu:hover{background-color:rgba(255,255,255,0.4)}
