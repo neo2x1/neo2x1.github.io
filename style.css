@@ -1,0 +1,28 @@
+*{font-family:Alef;
+	margin:0;
+	box-sizing:border-box;
+	color:white;}
+
+body{background:linear-gradient(145deg, rgba(112,112,175,1) 25%, rgba(175,112,112,1) 100%) fixed;}
+header{height:100px;
+	text-align:center;
+	font-size:1.5em;
+	}
+header h1{padding:0.3em 0;}
+nav{height:120px;}
+.menu{background-color:rgba(255,255,255,0);
+	transition:background-color 0.5s;
+	width:25%; 
+	height:120px;
+	border:1px white solid;
+	border-width:thin;
+	float:left}
+.menu p{padding:30px;
+	font-size:1.5em;
+	text-align:center;}
+	
+article{max-width:750px;
+	margin:auto;
+	margin-top:20px}
+
+.menu:hover{background-color:rgba(255,255,255,0.4)}
